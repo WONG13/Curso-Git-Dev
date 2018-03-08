@@ -8,6 +8,9 @@ namespace Demo
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World2!");
+            var hola = new Hola();
+            hola.HolaMessage();
+            Console.ReadKey();
         }
     }
 }
