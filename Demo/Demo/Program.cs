@@ -10,6 +10,7 @@ namespace Demo
             Console.WriteLine("Hello World2!");
             var hola = new Hola();
             hola.HolaMessage();
+            hola.HolaMessage();
             Console.ReadKey();
         }
     }
